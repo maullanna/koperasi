@@ -1,0 +1,387 @@
+/* Styling untuk tampilan mobile */
+@media (max-width: 767.98px) {
+    .search-container {
+        max-width: 88%;
+        margin: 1rem auto;
+    }
+    
+    .search-container .input-group-text {
+        background-color: #004366;
+        border: none;
+        color: white;
+    }
+
+    .search-container .input-group {
+        box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+
+    .search-container .form-control {
+        border: none;
+        border-left: 1px solid rgb(209, 211, 214);
+    }
+
+    .search-container .input-group-text {
+        background-color: #004366;
+        border: none;
+    }
+
+    .card-view {
+        display: block;
+        padding: 5px;
+    }
+
+    .tabungan-card {
+        border: 1px solid #dee2e6;
+        border-radius: 0.75rem;
+        margin: 1rem auto;
+        padding: 1.5rem;
+        background: white;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        max-width: 90%;
+    }
+
+    .tabungan-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .tabungan-card .card-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.85rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .tabungan-card .card-label {
+        font-weight: 600;
+        color: #495057;
+        flex: 1;
+        font-size: 0.95rem;
+    }
+
+    .tabungan-card .card-value {
+        text-align: right;
+        flex: 1;
+        color: #212529;
+        font-size: 0.95rem;
+    }
+
+    .tabungan-card .actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.75rem;
+        margin-top: 1.25rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(0,0,0,0.08);
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .card-view {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .search-container {
+        max-width: 88%;
+        margin: 1rem auto;
+    }
+    .search-container .input-group-text i {
+        color: white;
+    }
+    .search-container .input-group-text {
+        background-color: #0d6efd; /* atau warna gelap lain */
+    }
+
+    .search-container .input-group {
+        box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+
+
+    .search-container .input-group-text {
+        background-color: #004366;
+        border: none;
+    }
+}
+
+    /* Card View for Mobile */
+    /* Styling untuk tampilan mobile yang lebih minimalis */
+@media (max-width: 767.98px) {
+    .mobile-controls {
+        padding: 8px;
+        background: #f8f9fa;
+        border-radius: 8px;
+        margin: 8px auto;
+        max-width: 95%;
+    }
+
+    .search-container {
+        margin-bottom: 8px;
+    }
+
+    .search-container .input-group {
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .search-container .input-group-text {
+        background-color: #004366;
+        border: none;
+        color: white;
+        padding: 0.4rem 0.7rem;
+    }
+
+    .search-container .form-control {
+        border: none;
+        font-size: 0.875rem;
+        padding: 0.4rem 0.7rem;
+    }
+
+
+}
+    @media (max-width: 767.98px) {
+        .table-responsive {
+            display: none;
+            padding: 5px;
+        }
+        
+        .card-view {
+            display: block;
+        }
+        
+        .tabungan-card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+
+    /* Tambahan agar tidak terlalu lebar */
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+        
+        .tabungan-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .tabungan-card .card-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.85rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .tabungan-card .card-row:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .tabungan-card .card-label {
+            font-weight: 600;
+            color: #495057;
+            flex: 1;
+            font-size: 0.95rem;
+        }
+        
+        .tabungan-card .card-value {
+            text-align: right;
+            flex: 1;
+            color: #212529;
+            font-size: 0.95rem;
+        }
+        
+        .tabungan-card .badge {
+            font-size: 0.85rem;
+            padding: 0.35em 0.85em;
+            border-radius: 50rem;
+            font-weight: 500;
+        }
+        
+        .tabungan-card .actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.75rem;
+            margin-top: 1.25rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(0,0,0,0.08);
+        }
+        
+        .tabungan-card .actions .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            transition: all 0.2s ease;
+        }
+        
+        .tabungan-card .actions .btn:hover {
+            transform: translateY(-1px);
+        }
+        
+        /* Status badges */
+        .badge-success {
+            background-color: #28a745;
+            color: white;
+        }
+        
+        .badge-warning {
+            background-color: #ffc107;
+            color: #212529;
+        }
+        
+        .badge-danger {
+            background-color: #dc3545;
+            color: white;
+        }
+        
+        /* Custom scrollbar for card view */
+        .card-view::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .card-view::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        
+        .card-view::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        
+        .card-view::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .card-view {
+            display: none;
+        }
+    }
+
+    /* Misc Styles */
+    .alert-floating {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1046;
+        min-width: 300px;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .error-container {
+        padding: 15px;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .error-heading {
+        color: #dc3545;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+    }
+    
+    .error-heading i {
+        margin-right: 8px;
+    }
+    
+    .error-list {
+        margin: 15px 0;
+    }
+    
+    .error-list ul {
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+    
+    .error-list li {
+        margin-bottom: 8px;
+        color: #555;
+    }
+    
+    .error-tips {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 6px;
+        margin-top: 15px;
+    }
+    
+    .error-tips h6 {
+        color: #0d6efd;
+        margin-bottom: 10px;
+    }
+    
+    .error-tips ol {
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+    
+    .error-tips li {
+        margin-bottom: 5px;
+        color: #666;
+    }
+    .alert {
+        position: relative;
+        padding: 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    }
+    
+    .alert-heading {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: inherit;
+        margin-bottom: 0;
+    }
+    
+    .alert hr {
+        margin: 0.75rem 0;
+        opacity: 0.25;
+    }
+    
+    .error-details {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    
+    .error-details ul {
+        margin-bottom: 0.5rem;
+        padding-left: 1.25rem;
+    }
+    
+    .error-details li {
+        margin-bottom: 0.25rem;
+    }
+    
+    .alert .btn-close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    
+
+
+
