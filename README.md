@@ -75,7 +75,7 @@ The system is deployed on the client's private internal network and accessible o
 
 | Layer | Technology |
 |---|---|
-| **Backend** | PHP 7.4+, CodeIgniter 3.x |
+| **Backend** | PHP 8.0+, CodeIgniter 3.x |
 | **Frontend** | HTML5, CSS3, JavaScript, Bootstrap |
 | **Database** | MySQL 8.0 |
 | **Architecture** | MVC (Model-View-Controller) |
@@ -125,7 +125,7 @@ koperasi/
 ## ⚙️ Installation
 
 ### Prerequisites
-- PHP 7.4+
+- PHP 8.0+
 - MySQL 8.0
 - Apache/Nginx web server
 
