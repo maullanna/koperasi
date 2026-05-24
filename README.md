@@ -4,7 +4,7 @@
 > A full-stack web-based cooperative management system built for an internal company cooperative (Koperasi Karyawan), featuring member management, savings & loans, installment tracking, payroll, and financial reporting — with role-based access for Employee, Staff, and Super Admin.
 
 [![CodeIgniter](https://img.shields.io/badge/CodeIgniter-3.x-EF4223?style=flat&logo=codeigniter&logoColor=white)](https://codeigniter.com)
-[![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?style=flat&logo=php&logoColor=white)](https://php.net)
+[![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4?style=flat&logo=php&logoColor=white)](https://php.net)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat&logo=mysql&logoColor=white)](https://mysql.com)
 [![Status](https://img.shields.io/badge/Status-Live%20(Private%20Network)-orange)](https://payrolkopkarsejahtera.com)
 [![Role](https://img.shields.io/badge/Role-Solo%20Developer-blue)](https://maullanna.github.io/Portofolio)
